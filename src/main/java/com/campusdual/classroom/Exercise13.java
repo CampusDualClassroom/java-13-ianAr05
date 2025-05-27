@@ -5,7 +5,16 @@ public class Exercise13 {
         FuelTank ft = new FuelTank();
         ft.showDetails();
         System.out.println("Actualización capacidad");
-        ft.actualFuel = -8;
+        ft.setActualFuel(5);
         ft.showDetails();
+
+        System.out.println("---------------------------------");
+
+        //test con fuel negativo
+        ft.showDetails();
+        System.out.println("Actualización capacidad");
+        ft.setActualFuel(-5);
+        ft.showDetails();
+
     }
 }
